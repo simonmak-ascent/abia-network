@@ -1,6 +1,6 @@
 # ABIA Network — Asia-Pacific Business Innovation Association
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://simonplmak-cloud.github.io/abia-network/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://simonmak-ascent.github.io/abia-network/)
 
 A static website migration of [abia.network](https://www.abia.network/), hosted on GitHub Pages.
 
@@ -41,7 +41,7 @@ This repository contains the full static HTML/CSS/JS website for the **Asia-Paci
 
 ## Live Site
 
-Visit the live site at: **https://simonplmak-cloud.github.io/abia-network/**
+Visit the live site at: **https://simonmak-ascent.github.io/abia-network/**
 
 ## Original Source
 
