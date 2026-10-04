@@ -8,6 +8,24 @@ A static website migration of [abia.network](https://www.abia.network/), hosted 
 
 This repository contains the full static HTML/CSS/JS website for the **Asia-Pacific Business Innovation Association (ABIA)** — 亞太商業創新聯盟. The site has been faithfully migrated from the original Wix-based platform into a clean, lightweight, and fully static implementation suitable for GitHub Pages hosting.
 
+## Architecture
+
+```mermaid
+flowchart LR
+  SRC["Static site<br/>HTML · CSS · vanilla JS (8 pages)"] --> CI["GitHub Actions<br/>deploy to GitHub Pages"]
+  CI --> LIVE["GitHub Pages<br/>simonmak-ascent.github.io/abia-network"]
+  U[Visitor] --> LIVE
+  LIVE -.->|"images"| CDN["Original Wix CDN"]
+```
+
+## Quick start (≤ 5 minutes)
+
+- **Live site:** <https://simonmak-ascent.github.io/abia-network/> — nothing to install.
+- **Run locally:** serve the folder and open `index.html`:
+  ```bash
+  python3 -m http.server 8000    # then open http://localhost:8000
+  ```
+
 ## Pages
 
 | Page | File | Description |
